@@ -1,0 +1,6 @@
+# Ignore the Python virtual environment
+venv/
+
+# Ignore raw data files
+*.json
+*.csv
