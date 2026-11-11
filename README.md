@@ -11,7 +11,7 @@ An automated machine learning model and interactive analytical dashboard designe
 ---
 
 ## 🎯 Executive Summary
-I used a **Random Forest machine learning model** I learned from the [Google Advanced Data Analytics Professional Certificate](https://www.coursera.org/organizations/gwg-ent-first-work/professional-certificates/google-advanced-data-analytics) to deconstruct and predict the mana value formula of Magic: The Gathering cards from the Star Trek expansion set. I extracted live JSON data via the [**Scryfall API**](https://api.scryfall.com/cards), processing **647 mechanically unique castable cards**, utilizing Natural Language Processing (NLP) techniques to engineer 62 features from unstructured ability text, card types, colour identities, and base stats (power/toughness).
+I used a **Random Forest machine learning model** I learned from the [Google Advanced Data Analytics Professional Certificate](https://www.coursera.org/organizations/gwg-ent-first-work/professional-certificates/google-advanced-data-analytics) to deconstruct and predict the mana value formula of Magic: The Gathering cards from the Star Trek expansion set. I extracted live JSON data via https://api.scryfall.com/cards, processing **647 mechanically unique castable cards**, utilizing Natural Language Processing (NLP) techniques to engineer 62 features from unstructured ability text, card types, colour identities, and base stats (power/toughness).
 
 ### Key Performance Metrics:
 * **Exact Match Rate (Accuracy):** `51.5%` — Over half of all cards adhere strictly to an underlying mathematical cost formula.
